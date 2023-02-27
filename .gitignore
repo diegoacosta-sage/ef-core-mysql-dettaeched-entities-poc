@@ -1,0 +1,78 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Oo]bj/
+[Bb]in/
+[Nn]ode_modules/
+
+# Visual Studio files
+*.userprefs
+*.suo
+*.cache
+*.vspscc
+*.vssscc
+*.vspscc
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Oo]bj/
+[Bb]in/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# Build process instrumentation
+*.log
+*.dll.mdb
+*.pdb
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Windows detritus
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Oo]bj/
+[Bb]in/
+
+# Other generated files
+*.psess
+*.vsp
+*.vstest
+*.vspx
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Other
+*.Cache
+*.bak
+*.rptproj
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+packages/
