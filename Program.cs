@@ -41,6 +41,7 @@ public class MyDbContext : DbContext
 
         // modelBuilder.Entity<MyEntity>()
         //     .Property(e => e.Version)
+        //     //.IsRequired()
         //     .IsConcurrencyToken();
     }
 }
@@ -67,6 +68,8 @@ public class Program
         }
         catch (DbUpdateConcurrencyException ex)
         {
+            // THIS CATCH SHOULD BE USED. HOWEVER, THE EXCEPTION IS NOT THROWN
+
             // Handle concurrency conflict
             var entry = ex.Entries.Single();
             var clientValues = (MyEntity)entry.Entity;
